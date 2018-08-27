@@ -1,0 +1,44 @@
+{
+    "cities": [{
+               "name": "Dallas",
+               "state": "Texas",
+               "stateCode": "TX",
+               "monthlyTemps" : [{
+                                 "year": 2016,
+                                 "month": 1,
+                                 "high": 76,
+                                 "highDay": 30,
+                                 "low": 27,
+                                 "lowDay": 23
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 1,
+                                 "high": 80,
+                                 "highDay": 31,
+                                 "low": 15,
+                                 "lowDay": 7
+                                 }]
+               },
+               {
+               "name": "Denver",
+               "state": "Colorado",
+               "stateCode": "CO",
+               "monthlyTemps" : [{
+                                 "year": 2016,
+                                 "month": 1,
+                                 "high": 69,
+                                 "highDay": 31,
+                                 "low": 5,
+                                 "lowDay": 2
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 1,
+                                 "high": 65,
+                                 "highDay": 31,
+                                 "low": -15,
+                                 "lowDay": 6
+                                 }]
+               }]
+}

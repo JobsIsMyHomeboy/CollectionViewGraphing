@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C33BC052128B9F700309ACB /* CityTemperatureDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33BC042128B9F700309ACB /* CityTemperatureDataSource.swift */; };
+		5C33BC092128BBAF00309ACB /* GraphLayoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33BC082128BBAF00309ACB /* GraphLayoutType.swift */; };
+		5C523A01212860AD00C76023 /* CollectionViewGraphLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C523A00212860AD00C76023 /* CollectionViewGraphLayout.swift */; };
+		5C523A0321286C0700C76023 /* CollectionViewDelegateGraphLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C523A0221286C0700C76023 /* CollectionViewDelegateGraphLayout.swift */; };
+		5C523A052128716700C76023 /* CollectionViewCircleGraphLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C523A042128716700C76023 /* CollectionViewCircleGraphLayout.swift */; };
+		5C523A07212888E900C76023 /* CollectionViewLineGraphLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C523A06212888E900C76023 /* CollectionViewLineGraphLayout.swift */; };
+		5C523A0A21288CC100C76023 /* GraphCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C523A0921288CC100C76023 /* GraphCollectionViewLayoutAttributes.swift */; };
+		5C523A0B212899F000C76023 /* CGPoint+Hashing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42D120F1AA5E002E6188 /* CGPoint+Hashing.swift */; };
+		5C6331C220FBBD6B00020521 /* limitedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C6331C120FBBD6B00020521 /* limitedData.json */; };
+		5C84514321129B9F00D246DE /* CollectionViewDelegateLineGraphLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C84514221129B9F00D246DE /* CollectionViewDelegateLineGraphLayout.swift */; };
+		5CEE42B820F1A75E002E6188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42B720F1A75E002E6188 /* AppDelegate.swift */; };
+		5CEE42BD20F1A75E002E6188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE42BB20F1A75E002E6188 /* Main.storyboard */; };
+		5CEE42BF20F1A75F002E6188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE42BE20F1A75F002E6188 /* Assets.xcassets */; };
+		5CEE42C220F1A75F002E6188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE42C020F1A75F002E6188 /* LaunchScreen.storyboard */; };
+		5CEE42CD20F1A96A002E6188 /* CollectionViewDelegateCircleGraphLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42CC20F1A96A002E6188 /* CollectionViewDelegateCircleGraphLayout.swift */; };
+		5CEE42D020F1AA2D002E6188 /* CGFloat+Rounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42CF20F1AA2D002E6188 /* CGFloat+Rounding.swift */; };
+		5CEE42D520F29D31002E6188 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42D420F29D31002E6188 /* GraphViewController.swift */; };
+		5CEE42D920F2A750002E6188 /* HeatMapDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42D720F2A750002E6188 /* HeatMapDecorationView.swift */; };
+		5CEE42DC20F2A781002E6188 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42DB20F2A781002E6188 /* UIColor+Additions.swift */; };
+		5CEE42E120F2AF81002E6188 /* GraphLabelCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42DF20F2AF81002E6188 /* GraphLabelCollectionReusableView.swift */; };
+		5CEE42E220F2AF81002E6188 /* GraphLabelCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE42E020F2AF81002E6188 /* GraphLabelCollectionReusableView.xib */; };
+		5CEE42E520F2C43B002E6188 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42E420F2C43B002E6188 /* City.swift */; };
+		5CEE42E720F2C459002E6188 /* MonthlyTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42E620F2C459002E6188 /* MonthlyTemp.swift */; };
+		5CEE42EA20F2C51B002E6188 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE42E920F2C51B002E6188 /* data.json */; };
+		5CEE42EC20F2CF39002E6188 /* CitiesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42EB20F2CF39002E6188 /* CitiesResult.swift */; };
+		5CEE42EF20F2DA60002E6188 /* TemperatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42ED20F2DA60002E6188 /* TemperatureCollectionViewCell.swift */; };
+		5CEE42F020F2DA60002E6188 /* TemperatureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE42EE20F2DA60002E6188 /* TemperatureCollectionViewCell.xib */; };
+		5CEE42F220F2E0C9002E6188 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE42F120F2E0C9002E6188 /* Temperature.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C33BC042128B9F700309ACB /* CityTemperatureDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTemperatureDataSource.swift; sourceTree = "<group>"; };
+		5C33BC082128BBAF00309ACB /* GraphLayoutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphLayoutType.swift; sourceTree = "<group>"; };
+		5C523A00212860AD00C76023 /* CollectionViewGraphLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewGraphLayout.swift; sourceTree = "<group>"; };
+		5C523A0221286C0700C76023 /* CollectionViewDelegateGraphLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDelegateGraphLayout.swift; sourceTree = "<group>"; };
+		5C523A042128716700C76023 /* CollectionViewCircleGraphLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCircleGraphLayout.swift; sourceTree = "<group>"; };
+		5C523A06212888E900C76023 /* CollectionViewLineGraphLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLineGraphLayout.swift; sourceTree = "<group>"; };
+		5C523A0921288CC100C76023 /* GraphCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		5C6331C120FBBD6B00020521 /* limitedData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = limitedData.json; sourceTree = "<group>"; };
+		5C84514221129B9F00D246DE /* CollectionViewDelegateLineGraphLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDelegateLineGraphLayout.swift; sourceTree = "<group>"; };
+		5CEE42B420F1A75E002E6188 /* CollectionViewGraphing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewGraphing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEE42B720F1A75E002E6188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CEE42BC20F1A75E002E6188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CEE42BE20F1A75F002E6188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CEE42C120F1A75F002E6188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CEE42C320F1A75F002E6188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEE42CC20F1A96A002E6188 /* CollectionViewDelegateCircleGraphLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDelegateCircleGraphLayout.swift; sourceTree = "<group>"; };
+		5CEE42CF20F1AA2D002E6188 /* CGFloat+Rounding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Rounding.swift"; sourceTree = "<group>"; };
+		5CEE42D120F1AA5E002E6188 /* CGPoint+Hashing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Hashing.swift"; sourceTree = "<group>"; };
+		5CEE42D420F29D31002E6188 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		5CEE42D720F2A750002E6188 /* HeatMapDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapDecorationView.swift; sourceTree = "<group>"; };
+		5CEE42DB20F2A781002E6188 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		5CEE42DF20F2AF81002E6188 /* GraphLabelCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphLabelCollectionReusableView.swift; sourceTree = "<group>"; };
+		5CEE42E020F2AF81002E6188 /* GraphLabelCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphLabelCollectionReusableView.xib; sourceTree = "<group>"; };
+		5CEE42E420F2C43B002E6188 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		5CEE42E620F2C459002E6188 /* MonthlyTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyTemp.swift; sourceTree = "<group>"; };
+		5CEE42E920F2C51B002E6188 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		5CEE42EB20F2CF39002E6188 /* CitiesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesResult.swift; sourceTree = "<group>"; };
+		5CEE42ED20F2DA60002E6188 /* TemperatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCollectionViewCell.swift; sourceTree = "<group>"; };
+		5CEE42EE20F2DA60002E6188 /* TemperatureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemperatureCollectionViewCell.xib; sourceTree = "<group>"; };
+		5CEE42F120F2E0C9002E6188 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CEE42B120F1A75E002E6188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C33BC062128BA0000309ACB /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				5C33BC042128B9F700309ACB /* CityTemperatureDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		5C33BC072128BB9D00309ACB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5C33BC082128BBAF00309ACB /* GraphLayoutType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5C33BC0A2128C37A00309ACB /* CollectionViewLayoutDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				5C523A0221286C0700C76023 /* CollectionViewDelegateGraphLayout.swift */,
+				5CEE42CC20F1A96A002E6188 /* CollectionViewDelegateCircleGraphLayout.swift */,
+				5C84514221129B9F00D246DE /* CollectionViewDelegateLineGraphLayout.swift */,
+			);
+			path = CollectionViewLayoutDelegates;
+			sourceTree = "<group>";
+		};
+		5C523A0821288C9E00C76023 /* LayoutAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				5C523A0921288CC100C76023 /* GraphCollectionViewLayoutAttributes.swift */,
+			);
+			path = LayoutAttributes;
+			sourceTree = "<group>";
+		};
+		5CEE42AB20F1A75E002E6188 = {
+			isa = PBXGroup;
+			children = (
+				5CEE42B620F1A75E002E6188 /* CollectionViewGraphing */,
+				5CEE42B520F1A75E002E6188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CEE42B520F1A75E002E6188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE42B420F1A75E002E6188 /* CollectionViewGraphing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CEE42B620F1A75E002E6188 /* CollectionViewGraphing */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE42C920F1A86C002E6188 /* CollectionViewLayouts */,
+				5C33BC0A2128C37A00309ACB /* CollectionViewLayoutDelegates */,
+				5C523A0821288C9E00C76023 /* LayoutAttributes */,
+				5CEE42D320F29CCB002E6188 /* ViewControllers */,
+				5CEE42D620F2A722002E6188 /* Views */,
+				5C33BC062128BA0000309ACB /* DataSources */,
+				5C33BC072128BB9D00309ACB /* Enums */,
+				5CEE42E820F2C4FB002E6188 /* Data */,
+				5CEE42E320F2C41E002E6188 /* Objects */,
+				5CEE42CE20F1AA11002E6188 /* Extensions */,
+				5CEE42B720F1A75E002E6188 /* AppDelegate.swift */,
+				5CEE42BB20F1A75E002E6188 /* Main.storyboard */,
+				5CEE42BE20F1A75F002E6188 /* Assets.xcassets */,
+				5CEE42C020F1A75F002E6188 /* LaunchScreen.storyboard */,
+				5CEE42C320F1A75F002E6188 /* Info.plist */,
+			);
+			path = CollectionViewGraphing;
+			sourceTree = "<group>";
+		};
+		5CEE42C920F1A86C002E6188 /* CollectionViewLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				5C523A00212860AD00C76023 /* CollectionViewGraphLayout.swift */,
+				5C523A042128716700C76023 /* CollectionViewCircleGraphLayout.swift */,
+				5C523A06212888E900C76023 /* CollectionViewLineGraphLayout.swift */,
+			);
+			path = CollectionViewLayouts;
+			sourceTree = "<group>";
+		};
+		5CEE42CE20F1AA11002E6188 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE42CF20F1AA2D002E6188 /* CGFloat+Rounding.swift */,
+				5CEE42D120F1AA5E002E6188 /* CGPoint+Hashing.swift */,
+				5CEE42DB20F2A781002E6188 /* UIColor+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5CEE42D320F29CCB002E6188 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE42D420F29D31002E6188 /* GraphViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5CEE42D620F2A722002E6188 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE42D720F2A750002E6188 /* HeatMapDecorationView.swift */,
+				5CEE42DF20F2AF81002E6188 /* GraphLabelCollectionReusableView.swift */,
+				5CEE42E020F2AF81002E6188 /* GraphLabelCollectionReusableView.xib */,
+				5CEE42ED20F2DA60002E6188 /* TemperatureCollectionViewCell.swift */,
+				5CEE42EE20F2DA60002E6188 /* TemperatureCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CEE42E320F2C41E002E6188 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE42E420F2C43B002E6188 /* City.swift */,
+				5CEE42E620F2C459002E6188 /* MonthlyTemp.swift */,
+				5CEE42EB20F2CF39002E6188 /* CitiesResult.swift */,
+				5CEE42F120F2E0C9002E6188 /* Temperature.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		5CEE42E820F2C4FB002E6188 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5C6331C120FBBD6B00020521 /* limitedData.json */,
+				5CEE42E920F2C51B002E6188 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CEE42B320F1A75E002E6188 /* CollectionViewGraphing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEE42C620F1A75F002E6188 /* Build configuration list for PBXNativeTarget "CollectionViewGraphing" */;
+			buildPhases = (
+				5CEE42B020F1A75E002E6188 /* Sources */,
+				5CEE42B120F1A75E002E6188 /* Frameworks */,
+				5CEE42B220F1A75E002E6188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewGraphing;
+			productName = CollectionViewGraphing;
+			productReference = 5CEE42B420F1A75E002E6188 /* CollectionViewGraphing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CEE42AC20F1A75E002E6188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Brian Miller";
+				TargetAttributes = {
+					5CEE42B320F1A75E002E6188 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 5CEE42AF20F1A75E002E6188 /* Build configuration list for PBXProject "CollectionViewGraphing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CEE42AB20F1A75E002E6188;
+			productRefGroup = 5CEE42B520F1A75E002E6188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CEE42B320F1A75E002E6188 /* CollectionViewGraphing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CEE42B220F1A75E002E6188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEE42C220F1A75F002E6188 /* LaunchScreen.storyboard in Resources */,
+				5C6331C220FBBD6B00020521 /* limitedData.json in Resources */,
+				5CEE42F020F2DA60002E6188 /* TemperatureCollectionViewCell.xib in Resources */,
+				5CEE42E220F2AF81002E6188 /* GraphLabelCollectionReusableView.xib in Resources */,
+				5CEE42BF20F1A75F002E6188 /* Assets.xcassets in Resources */,
+				5CEE42EA20F2C51B002E6188 /* data.json in Resources */,
+				5CEE42BD20F1A75E002E6188 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CEE42B020F1A75E002E6188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEE42CD20F1A96A002E6188 /* CollectionViewDelegateCircleGraphLayout.swift in Sources */,
+				5CEE42D920F2A750002E6188 /* HeatMapDecorationView.swift in Sources */,
+				5CEE42D020F1AA2D002E6188 /* CGFloat+Rounding.swift in Sources */,
+				5C523A01212860AD00C76023 /* CollectionViewGraphLayout.swift in Sources */,
+				5CEE42E520F2C43B002E6188 /* City.swift in Sources */,
+				5C33BC052128B9F700309ACB /* CityTemperatureDataSource.swift in Sources */,
+				5C33BC092128BBAF00309ACB /* GraphLayoutType.swift in Sources */,
+				5CEE42EF20F2DA60002E6188 /* TemperatureCollectionViewCell.swift in Sources */,
+				5CEE42D520F29D31002E6188 /* GraphViewController.swift in Sources */,
+				5C84514321129B9F00D246DE /* CollectionViewDelegateLineGraphLayout.swift in Sources */,
+				5C523A07212888E900C76023 /* CollectionViewLineGraphLayout.swift in Sources */,
+				5CEE42EC20F2CF39002E6188 /* CitiesResult.swift in Sources */,
+				5C523A0321286C0700C76023 /* CollectionViewDelegateGraphLayout.swift in Sources */,
+				5C523A0B212899F000C76023 /* CGPoint+Hashing.swift in Sources */,
+				5CEE42E120F2AF81002E6188 /* GraphLabelCollectionReusableView.swift in Sources */,
+				5CEE42E720F2C459002E6188 /* MonthlyTemp.swift in Sources */,
+				5C523A052128716700C76023 /* CollectionViewCircleGraphLayout.swift in Sources */,
+				5CEE42B820F1A75E002E6188 /* AppDelegate.swift in Sources */,
+				5CEE42F220F2E0C9002E6188 /* Temperature.swift in Sources */,
+				5C523A0A21288CC100C76023 /* GraphCollectionViewLayoutAttributes.swift in Sources */,
+				5CEE42DC20F2A781002E6188 /* UIColor+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CEE42BB20F1A75E002E6188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEE42BC20F1A75E002E6188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CEE42C020F1A75F002E6188 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEE42C120F1A75F002E6188 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CEE42C420F1A75F002E6188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CEE42C520F1A75F002E6188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CEE42C720F1A75F002E6188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CollectionViewGraphing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianmiller.collectionviewgraphing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CEE42C820F1A75F002E6188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CollectionViewGraphing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianmiller.collectionviewgraphing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CEE42AF20F1A75E002E6188 /* Build configuration list for PBXProject "CollectionViewGraphing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEE42C420F1A75F002E6188 /* Debug */,
+				5CEE42C520F1A75F002E6188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEE42C620F1A75F002E6188 /* Build configuration list for PBXNativeTarget "CollectionViewGraphing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEE42C720F1A75F002E6188 /* Debug */,
+				5CEE42C820F1A75F002E6188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CEE42AC20F1A75E002E6188 /* Project object */;
+}

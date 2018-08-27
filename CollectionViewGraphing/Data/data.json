@@ -1,0 +1,396 @@
+{
+    "cities": [{
+               "name": "Dallas",
+               "state": "Texas",
+               "stateCode": "TX",
+               "monthlyTemps" : [{
+                                 "year": 2016,
+                                 "month": 1,
+                                 "high": 76,
+                                 "highDay": 30,
+                                 "low": 27,
+                                 "lowDay": 23
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 2,
+                                 "high": 79,
+                                 "highDay": 19,
+                                 "low": 32,
+                                 "lowDay": 4
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 3,
+                                 "high": 89,
+                                 "highDay": 14,
+                                 "low": 35,
+                                 "lowDay": 21
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 4,
+                                 "high": 88,
+                                 "highDay": 11,
+                                 "low": 45,
+                                 "lowDay": 3
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 5,
+                                 "high": 94,
+                                 "highDay": 10,
+                                 "low": 50,
+                                 "lowDay": 3
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 6,
+                                 "high": 99,
+                                 "highDay": 27,
+                                 "low": 66,
+                                 "lowDay": 6
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 7,
+                                 "high": 100,
+                                 "highDay": 30,
+                                 "low": 70,
+                                 "lowDay": 15
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 8,
+                                 "high": 106,
+                                 "highDay": 12,
+                                 "low": 71,
+                                 "lowDay": 19
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 9,
+                                 "high": 100,
+                                 "highDay": 19,
+                                 "low": 57,
+                                 "lowDay": 30
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 10,
+                                 "high": 93,
+                                 "highDay": 18,
+                                 "low": 53,
+                                 "lowDay": 21
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 11,
+                                 "high": 87,
+                                 "highDay": 1,
+                                 "low": 37,
+                                 "lowDay": 20
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 12,
+                                 "high": 82,
+                                 "highDay": 28,
+                                 "low": 17,
+                                 "lowDay": 19
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 1,
+                                 "high": 80,
+                                 "highDay": 31,
+                                 "low": 15,
+                                 "lowDay": 7
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 2,
+                                 "high": 88,
+                                 "highDay": 23,
+                                 "low": 36,
+                                 "lowDay": 25
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 3,
+                                 "high": 90,
+                                 "highDay": 20,
+                                 "low": 40,
+                                 "lowDay": 14
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 4,
+                                 "high": 90,
+                                 "highDay": 29,
+                                 "low": 48,
+                                 "lowDay": 27
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 5,
+                                 "high": 94,
+                                 "highDay": 26,
+                                 "low": 49,
+                                 "lowDay": 1
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 6,
+                                 "high": 101,
+                                 "highDay": 23,
+                                 "low": 65,
+                                 "lowDay": 9
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 7,
+                                 "high": 104,
+                                 "highDay": 28,
+                                 "low": 69,
+                                 "lowDay": 4
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 8,
+                                 "high": 101,
+                                 "highDay": 11,
+                                 "low": 70,
+                                 "lowDay": 30
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 9,
+                                 "high": 98,
+                                 "highDay": 20,
+                                 "low": 60,
+                                 "lowDay": 7
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 10,
+                                 "high": 94,
+                                 "highDay": 9,
+                                 "low": 34,
+                                 "lowDay": 28
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 11,
+                                 "high": 92,
+                                 "highDay": 5,
+                                 "low": 37,
+                                 "lowDay": 23
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 12,
+                                 "high": 82,
+                                 "highDay": 4,
+                                 "low": 23,
+                                 "lowDay": 31
+                                 }]
+               },
+               {
+               "name": "Denver",
+               "state": "Colorado",
+               "stateCode": "CO",
+               "monthlyTemps" : [{
+                                 "year": 2016,
+                                 "month": 1,
+                                 "high": 69,
+                                 "highDay": 31,
+                                 "low": 5,
+                                 "lowDay": 2
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 2,
+                                 "high": 76,
+                                 "highDay": 19,
+                                 "low": 4,
+                                 "lowDay": 4
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 3,
+                                 "high": 76,
+                                 "highDay": 22,
+                                 "low": 13,
+                                 "lowDay": 25
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 4,
+                                 "high": 83,
+                                 "highDay": 23,
+                                 "low": 20,
+                                 "lowDay": 2
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 5,
+                                 "high": 90,
+                                 "highDay": 22,
+                                 "low": 25,
+                                 "lowDay": 2
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 6,
+                                 "high": 104,
+                                 "highDay": 22,
+                                 "low": 45,
+                                 "lowDay": 1
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 7,
+                                 "high": 104,
+                                 "highDay": 10,
+                                 "low": 55,
+                                 "lowDay": 6
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 8,
+                                 "high": 101,
+                                 "highDay": 4,
+                                 "low": 40,
+                                 "lowDay": 20
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 9,
+                                 "high": 95,
+                                 "highDay": 12,
+                                 "low": 40,
+                                 "lowDay": 11
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 10,
+                                 "high": 89,
+                                 "highDay": 17,
+                                 "low": 28,
+                                 "lowDay": 20
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 11,
+                                 "high": 84,
+                                 "highDay": 17,
+                                 "low": 16,
+                                 "lowDay": 30
+                                 },
+                                 {
+                                 "year": 2016,
+                                 "month": 12,
+                                 "high": 68,
+                                 "highDay": 31,
+                                 "low": -11,
+                                 "lowDay": 18
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 1,
+                                 "high": 65,
+                                 "highDay": 31,
+                                 "low": -15,
+                                 "lowDay": 6
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 2,
+                                 "high": 78,
+                                 "highDay": 17,
+                                 "low": 11,
+                                 "lowDay": 25
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 3,
+                                 "high": 85,
+                                 "highDay": 19,
+                                 "low": 16,
+                                 "lowDay": 1
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 4,
+                                 "high": 82,
+                                 "highDay": 19,
+                                 "low": 21,
+                                 "lowDay": 30
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 5,
+                                 "high": 89,
+                                 "highDay": 14,
+                                 "low": 22,
+                                 "lowDay": 1
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 6,
+                                 "high": 102,
+                                 "highDay": 21,
+                                 "low": 42,
+                                 "lowDay": 24
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 7,
+                                 "high": 102,
+                                 "highDay": 20,
+                                 "low": 49,
+                                 "lowDay": 1
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 8,
+                                 "high": 99,
+                                 "highDay": 20,
+                                 "low": 49,
+                                 "lowDay": 10
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 9,
+                                 "high": 100,
+                                 "highDay": 4,
+                                 "low": 38,
+                                 "lowDay": 26
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 10,
+                                 "high": 87,
+                                 "highDay": 26,
+                                 "low": 22,
+                                 "lowDay": 28
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 11,
+                                 "high": 80,
+                                 "highDay": 28,
+                                 "low": 20,
+                                 "lowDay": 10
+                                 },
+                                 {
+                                 "year": 2017,
+                                 "month": 12,
+                                 "high": 72,
+                                 "highDay": 13,
+                                 "low": 5,
+                                 "lowDay": 25
+                                 }]
+               }]
+}
